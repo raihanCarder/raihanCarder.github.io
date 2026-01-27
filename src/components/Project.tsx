@@ -1,15 +1,22 @@
-import Skill from './Skill'
+import Skill from "./ProjectSkill";
 
 type ProjectProps = {
-  title: string
-  description: string
-  image: string
-  skills: string[]
-  completed: boolean
-  link: string
-}
+  title: string;
+  description: string;
+  image: string;
+  skills: string[];
+  completed: boolean;
+  link: string;
+};
 
-function Project({ title, description, image, skills, completed, link }: ProjectProps) {
+function Project({
+  title,
+  description,
+  image,
+  skills,
+  completed,
+  link,
+}: ProjectProps) {
   return (
     <a className="project-card" href={link} target="_blank" rel="noreferrer">
       <div className="project-image">
@@ -18,8 +25,10 @@ function Project({ title, description, image, skills, completed, link }: Project
       <div className="project-body">
         <div className="project-meta">
           <h3>{title}</h3>
-          <span className={`project-status ${completed ? 'done' : 'in-progress'}`}>
-            {completed ? 'Completed' : 'In Progress'}
+          <span
+            className={`project-status ${completed ? "done" : "in-progress"}`}
+          >
+            {completed ? "Completed" : "In Progress"}
           </span>
         </div>
         <p>{description}</p>
@@ -30,7 +39,7 @@ function Project({ title, description, image, skills, completed, link }: Project
         </div>
       </div>
     </a>
-  )
+  );
 }
 
-export default Project
+export default Project;

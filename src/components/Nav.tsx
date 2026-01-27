@@ -8,6 +8,9 @@ function Nav() {
           Raihan Carder
         </a>
         <div className="nav-links">
+          <a href="#" onClick={go("top")}>
+            Home
+          </a>
           <a href="#" onClick={go("about")}>
             About
           </a>
