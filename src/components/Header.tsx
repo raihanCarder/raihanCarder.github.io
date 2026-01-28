@@ -6,8 +6,10 @@ export default function Header() {
         <p className="eyebrow">Portfolio</p>
         <h1 className="hero-title typewriter">Raihan Carder</h1>
         <p className="hero-subtitle">
-          I build clean, responsive web experiences and thoughtful digital
-          products.
+          Computer Science student @ UofT specializing in Software Engineering.
+          Currently in co-op, building toward a career in software engineering
+          with a love for full-stack development, AI/ML, mobile apps, and
+          transforming ideas into real products.
         </p>
         <div className="hero-cta">
           <a className="btn" href="#" onClick={go("projects")}>
