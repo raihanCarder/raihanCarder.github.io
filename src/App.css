@@ -1,5 +1,15 @@
 :root {
   color-scheme: light;
+  --ink-900: #0f172a;
+  --ink-700: #334155;
+  --slate-500: #64748b;
+  --slate-300: #cbd5f5;
+  --surface-0: #ffffff;
+  --surface-50: #f8fafc;
+  --surface-100: #f1f5f9;
+  --accent-rose: #f43f5e;
+  --accent-rose-light: #fff1f2;
+  --shadow-strong: rgba(15, 23, 42, 0.15);
 }
 
 #root {
@@ -375,6 +385,7 @@
   transition:
     transform 180ms ease,
     box-shadow 180ms ease;
+  cursor: pointer;
 }
 
 .project-card:hover {

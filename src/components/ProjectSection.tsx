@@ -19,7 +19,7 @@ export default function ProjectSection() {
             description="One sentence about what it does and your role."
             image="/project-2.jpg"
             skills={["UI Design", "Accessibility"]}
-            link="https://example.com"
+            link=""
             completed={false}
           />
           <Project

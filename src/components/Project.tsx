@@ -1,4 +1,5 @@
-import Skill from "./ProjectSkill";
+import toast from "react-hot-toast";
+import ProjectContent from "./ProjectContents";
 
 type ProjectProps = {
   title: string;
@@ -17,27 +18,43 @@ function Project({
   completed,
   link,
 }: ProjectProps) {
+  const content = (
+    <ProjectContent
+      title={title}
+      description={description}
+      image={image}
+      skills={skills}
+      completed={completed}
+    />
+  );
+
+  const toastSuccess = () => {
+    toast.success("Not live yet… coming soon 👀", {
+      style: {
+        border: "1px solid rgba(15, 23, 42, 0.18)",
+        padding: "14px 16px",
+        color: "#0f172a",
+        background: "#f8fafc",
+        boxShadow: "0 12px 30px rgba(15, 23, 42, 0.12)",
+      },
+      iconTheme: {
+        primary: "#1d4ed8",
+        secondary: "#fff1f2",
+      },
+    });
+  };
+
+  if (!link) {
+    return (
+      <a onClick={toastSuccess} className="project-card">
+        {content}
+      </a>
+    );
+  }
+
   return (
     <a className="project-card" href={link} target="_blank" rel="noreferrer">
-      <div className="project-image">
-        <img src={image} alt={title} />
-      </div>
-      <div className="project-body">
-        <div className="project-meta">
-          <h3>{title}</h3>
-          <span
-            className={`project-status ${completed ? "done" : "in-progress"}`}
-          >
-            {completed ? "Completed" : "In Progress"}
-          </span>
-        </div>
-        <p>{description}</p>
-        <div className="skills-row">
-          {skills.map((skill) => (
-            <Skill key={skill} name={skill} />
-          ))}
-        </div>
-      </div>
+      {content}
     </a>
   );
 }
