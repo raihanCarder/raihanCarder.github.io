@@ -1,4 +1,10 @@
 import Project from "./Project";
+import SmartAirPhoto from "../assets/smartAirPhoto.png";
+import Music4YouPhoto from "../assets/Music4YouLogo.png";
+import EzFormPhoto from "../assets/ezFormPhoto.jpeg";
+import TaskMasterPhoto from "../assets/TaskMaster.png";
+import WeatherMePhoto from "../assets/weatherMePhoto.png";
+import PortfolioSitePhoto from "../assets/portfolioSite.png";
 
 export default function ProjectSection() {
   return (
@@ -7,51 +13,72 @@ export default function ProjectSection() {
         <h2>Projects</h2>
         <div className="cards">
           <Project
-            title="Project One"
-            description="One sentence about what it does and your role."
-            image="/project-1.jpg"
-            skills={["React", "TypeScript", "CSS"]}
-            link="https://example.com"
+            title="Smart Air"
+            description="SMART AIR is a kid-friendly Android app designed to help children (ages 6–16) understand asthma, practice correct inhaler technique, log symptoms and medication use, and share parent-approved health information with healthcare providers through a secure, controlled interface."
+            image={SmartAirPhoto}
+            skills={[
+              "Java",
+              "Android SDK",
+              "Firebase",
+              "Collaboraton",
+              "Teamwork",
+              "Agile Methodologies",
+            ]}
+            link="https://github.com/raihanCarder/Smart-Air-App"
             completed
           />
           <Project
-            title="Project Two"
-            description="One sentence about what it does and your role."
-            image="/project-2.jpg"
-            skills={["UI Design", "Accessibility"]}
+            title="Music4You"
+            description="Music4You is a personal full-stack web project inspired by my love for music, rating media, and platforms like IMDb and Letterboxd. The goal is to create a space where people can rate music, discover shared tastes, and connect with friends through their listening preferences."
+            image={Music4YouPhoto}
+            skills={[
+              "Next.js",
+              "React",
+              "TypeScript",
+              "Supabase",
+              "PostgreSQL",
+            ]}
             link=""
             completed={false}
           />
           <Project
-            title="Project Three"
-            description="One sentence about what it does and your role."
-            image="/project-3.jpg"
-            skills={["Vite", "React", "Animation"]}
-            link="https://example.com"
+            title="Ez Form"
+            description="Ez Form lets users upload a PDF form, then have a voice conversation to fill it out. The app extracts form fields, asks questions aloud, listens to spoken responses, tracks completion, and generates a filled PDF for download. The result is a completed form without ever touching a keyboard."
+            image={EzFormPhoto}
+            skills={[
+              "FastAPI",
+              "React",
+              "TypeScript",
+              "Python",
+              "Google Gemini API",
+              "Hackathon",
+              "Accessibility",
+            ]}
+            link="https://github.com/raihanCarder/Ez-Form"
             completed
           />
           <Project
-            title="PulseFit Dashboard"
-            description="Fitness analytics dashboard with workout streaks, goal tracking, and smart insights."
-            image="/project-4.jpg"
-            skills={["Next.js", "Charting", "Node", "MongoDB"]}
-            link="https://example.com"
+            title="TaskMaster"
+            description="To-do app made with JavaScript and HTML/CSS."
+            image={TaskMasterPhoto}
+            skills={["JavaScript", "HTML", "CSS"]}
+            link="https://raihancarder.github.io/TaskMaster/"
             completed
           />
           <Project
-            title="CampusLink"
-            description="UofT student hub for events, study rooms, and quick campus navigation."
-            image="/project-5.jpg"
-            skills={["React", "Maps API", "TypeScript", "Firebase"]}
-            link="https://example.com"
-            completed={false}
+            title="WeatherMe"
+            description="Weather app made with Js, HTML/CSS and the Visual Crossing Weather API"
+            image={WeatherMePhoto}
+            skills={["JavaScript", "HTML", "CSS", "Visual Crossing API"]}
+            link="https://raihancarder.github.io/WeatherMe/"
+            completed
           />
           <Project
-            title="Redline AI Notes"
-            description="AI-assisted lecture note cleaner with summaries, tags, and export to PDF."
-            image="/project-6.jpg"
-            skills={["Python", "NLP", "FastAPI", "Tailwind"]}
-            link="https://example.com"
+            title="My Website"
+            description="Raihan Carder's Portfolio Website (This site)"
+            image={PortfolioSitePhoto}
+            skills={["TypeScript", "React", "Portfolio"]}
+            link="https://github.com/raihanCarder/raihanCarder.github.io"
             completed
           />
         </div>
