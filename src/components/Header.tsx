@@ -1,4 +1,5 @@
 import { go } from "../utils/scrollTo";
+import headerPhoto from "../assets/headerPhoto.jpeg";
 export default function Header() {
   return (
     <header className="hero" id="top">
@@ -29,7 +30,7 @@ export default function Header() {
         </div>
         <div className="hero-media">
           <img
-            src="/hero-portrait.jpg"
+            src={headerPhoto}
             alt="Portrait of Raihan Carder"
             className="hero-image"
           />

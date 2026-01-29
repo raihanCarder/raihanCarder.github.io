@@ -10,13 +10,13 @@ export default function AboutMe() {
             <p>
               I’m a Computer Science student at the University of Toronto
               specializing in Software Engineering, driven by a love for
-              problem-solving and building things that feel real and useful. On
-              the technical side, I enjoy learning new technologies, working on
-              projects I’m genuinely passionate about, and attending hackathons
-              with friends to collaborate, experiment, and push myself. I’m
-              especially interested in full-stack development, AI and machine
-              learning, and mobile development. Outside of tech, you’ll usually
-              find me at the gym, reading, or listening to all kinds of music.
+              problem-solving and bringing ideas to life. On the technical side,
+              I enjoy learning new technologies, working on projects I’m
+              genuinely passionate about, and attending hackathons with friends
+              to collaborate, experiment, and push myself. I’m especially
+              interested in full-stack development, AI and machine learning, and
+              mobile development. Outside of tech, you’ll usually find me at the
+              gym, reading, or listening to a variety of different artists.
               Looking ahead, I hope to travel the world and create software that
               makes a meaningful, positive impact on people’s lives.
             </p>
