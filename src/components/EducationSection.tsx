@@ -18,7 +18,11 @@ export default function EducationSection() {
             <EducationTimeline />
           </div>
           <div className="education-image">
-            <img src={UoftPhoto} alt="UofT Scarborough campus" />
+            <img
+              src={UoftPhoto}
+              alt="UofT Scarborough campus"
+              loading="eager"
+            />
           </div>
         </div>
       </div>

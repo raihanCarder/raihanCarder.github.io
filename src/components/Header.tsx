@@ -33,6 +33,7 @@ export default function Header() {
             src={headerPhoto}
             alt="Portrait of Raihan Carder"
             className="hero-image"
+            loading="eager"
           />
         </div>
       </div>
