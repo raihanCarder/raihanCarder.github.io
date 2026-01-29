@@ -20,7 +20,7 @@ export default function ProjectSection() {
               "Java",
               "Android SDK",
               "Firebase",
-              "Collaboraton",
+              "Collaboration",
               "Teamwork",
               "Agile Methodologies",
             ]}
@@ -67,7 +67,7 @@ export default function ProjectSection() {
           />
           <Project
             title="WeatherMe"
-            description="Weather app made with Js, HTML/CSS and the Visual Crossing Weather API"
+            description="Weather app made with JS, HTML/CSS, and the Visual Crossing Weather API"
             image={WeatherMePhoto}
             skills={["JavaScript", "HTML", "CSS", "Visual Crossing API"]}
             link="https://raihancarder.github.io/WeatherMe/"

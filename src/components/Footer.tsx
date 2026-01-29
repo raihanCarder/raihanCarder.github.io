@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="footer-brand">
             <p className="footer-title">Raihan Carder</p>
             <p className="footer-tagline">
-              An Uoft Computer Science student and an aspiring Software Engineer
+              A UofT Computer Science student and an aspiring Software Engineer
             </p>
           </div>
           <div className="footer-actions">

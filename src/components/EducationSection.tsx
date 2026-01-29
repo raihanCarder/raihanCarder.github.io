@@ -12,7 +12,7 @@ export default function EducationSection() {
             <EducationHeader />
             <p className="education-coursework">
               Relevant Coursework: Software Design (CSCB07), Software Tools and
-              Systems Programming (CSCB09), Data Structure and Algorithms
+              Systems Programming (CSCB09), Data Structures and Algorithms
               (CSCB63)
             </p>
             <EducationTimeline />

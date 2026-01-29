@@ -25,7 +25,6 @@ function ProjectSkill({ name }: SkillProps) {
     Accessibility: { background: "#ecfccb", text: "#3f6212" },
     "Visual Crossing API": { background: "#cffafe", text: "#0e7490" },
     Portfolio: { background: "#d1fae5", text: "#065f46" },
-    Collaboraton: { background: "#f3e8ff", text: "#6b21a8" },
   };
 
   const color = skillColors[name];
