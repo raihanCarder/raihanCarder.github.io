@@ -2,10 +2,10 @@ import "./App.css";
 import Nav from "./components/Nav";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
-import SkillSection from "./components/SkillSection";
 import Footer from "./components/Footer";
 import ProjectSection from "./components/ProjectSection";
 import { Toaster } from "react-hot-toast";
+import EducationSection from "./components/EducationSection";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Nav />
       <Header />
       <AboutMe />
-      <SkillSection />
+      <EducationSection />
       <ProjectSection />
       <Footer />
     </div>

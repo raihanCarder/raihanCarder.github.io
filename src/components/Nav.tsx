@@ -27,8 +27,8 @@ function Nav() {
           <a href="#" onClick={go("about")}>
             About
           </a>
-          <a href="#" onClick={go("skills")}>
-            Skills
+          <a href="#" onClick={go("education")}>
+            Education
           </a>
           <a href="#" onClick={go("projects")}>
             Projects
