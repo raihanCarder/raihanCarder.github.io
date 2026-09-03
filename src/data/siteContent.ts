@@ -44,9 +44,8 @@ export const aboutSectionContent: AboutSectionContent = {
   basedAt: "Toronto, Ontario",
   school: "University of Toronto",
   program: "Computer Science, Specializing in Software Engineering",
-  status:
-    "Incoming Software Developer Intern at Rocket Innovation Studio - Fall 2026",
-  now: "Completing my first semester of third year",
+  status: "Looking for Winter 2028 and Summer 2028 internships.",
+  now: "Working as a Software Developer Intern @ Rocket Innovation Studio.",
   focusAreas: [
     "full-stack development",
     "software engineering",
@@ -64,9 +63,13 @@ export const educationSectionContent: EducationSectionContent = {
   year: "3rd",
   graduation: "Expected April 2028",
   coursework: [
-    "software design",
-    "software tools and systems",
-    "data structures and algorithms",
+    "Software design",
+    "Software tools and systems",
+    "Data structures and algorithms",
+    "Programming on the Web",
+    "Human-Computer Interaction",
+    "Principles of Programming Languages",
+    "Introduction to Databases",
   ],
   location: {
     label: "UofT Scarborough",
@@ -79,15 +82,15 @@ export const experienceSectionContent: ExperienceSectionContent = {
   tag: "Career timeline",
   title: "Experience",
   summary:
-    "My current and upcoming software engineering experience, from building CodeClash at UofT to joining Rocket Innovation Studio.",
+    "Currently building software as a Software Developer Intern @ Rocket",
   experiences: [
     {
       company: "Rocket Innovation Studio",
       role: "Software Developer Intern",
-      period: "Fall 2026",
-      status: "upcoming",
+      period: "Sep 2026 - Present",
+      status: "current",
       description:
-        "Joining Rocket Innovation Studio as a Software Developer Intern in Fall 2026.",
+        "Working as a Software Developer Intern at Rocket Innovation Studio.",
       logo: rocketLogo,
       logoAlt: "Rocket Innovation Studio logo",
     },
@@ -336,5 +339,5 @@ export const footerSectionContent: FooterSectionContent = {
   brand: "Raihan Carder",
   note: "Toronto-based computer science student designing polished software experiences across full-stack, AI, and mobile.",
   availability:
-    "Incoming Software Developer Intern at Rocket Innovation Studio for Fall 2026.",
+    "Working as a Software Developer Intern at Rocket Innovation Studio. Looking for Winter 2028 and Summer 2028 internships.",
 };
